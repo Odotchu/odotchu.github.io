@@ -9,7 +9,7 @@
 
 /*@font-face {
     font-family: Squa Tront;
-    src: url(fonts/squa-tront/SpaFon-XGz2.ttf);
+    src: url(./fonts/squa-tront/SpaFon-XGz2.ttf);
 }
 
 h1
@@ -74,7 +74,7 @@ body > div {
 /*old code*/
 
 .blogLabel {
-    background-image: url('images/diner/checker1.png');
+    background-image: url('./images/diner/checker1.png');
     background-size: 47px;
     background-repeat:repeat-x;
     height: 5vh;
