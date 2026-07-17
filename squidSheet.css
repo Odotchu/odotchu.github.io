@@ -1,16 +1,53 @@
-﻿body {
+﻿:root {
+    --seaFoam: #50AEAE;
+    --ink: #104B51;
+    --steam: #e2d4ba;
+    --fog: #ABBDA5;
+    --sorrow: #849D8A;
+    --ribbon: #D7AC5A;
+}
+
+/*@font-face {
+    font-family: Squa Tront;
+    src: url(fonts/squa-tront/SpaFon-XGz2.ttf);
+}
+
+h1
+{
+    font-family: Squa Tront;
+}
+*/
+body > div {
+    margin: 8% 15% 0 15%;
+    width:70%;
+    padding:3vw;
 }
 
 .mainDiv {
-    margin: 20% 15% 0 15%;
-    width: 70%;
-    height: 50vh;
+    margin-top:20%;
+    height: 59vw;
     background-color: burlywood;
-    padding: 3vw;
     border: 3px brown solid;
     border-radius: 15px;
     z-index: 0;
 }
+.mainHeader{
+    width:60%;
+    margin-left:40%;
+    background-color:blue;
+}
+.mainContent {
+    width: 70%;
+    margin: 10% 0 0 30%;
+    background-color: blue;
+}
+
+
+
+
+
+
+
 
 .tabHolder {
     margin: 1vw auto;
@@ -30,3 +67,46 @@
         z-index:-1;
 
 }
+
+
+
+/*old code*/
+
+.blogLabel {
+    background-image: url('images/diner/checker1.png');
+    background-size: 47px;
+    background-repeat:repeat-x;
+    height: 5vh;
+    width: 150%;
+    margin:1vw 0 0 20.2vw;
+}
+.blog {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 40vh;
+    
+    border: 3px aqua solid;
+    border-radius: 15px;
+}
+
+.blog > ul {
+    list-style-type: none;
+    width:200%;
+    height:30vh;
+}
+ .blog > ul > li {
+    float: left;
+    margin-left: 3vw;
+}
+.card {
+    padding: 10px;
+    width: 30vw;
+    height: 30vh;
+    background-color: var(--steam);
+    box-shadow: 10px 5px 5px var(--ink);
+}
+
+.card:hover {
+        box-shadow: 12px 12px 2px 1px var(--ink);
+        transform: rotate(-2deg);
+    }
