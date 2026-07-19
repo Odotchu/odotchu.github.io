@@ -1,0 +1,7 @@
+*.vsidx
+*.sqlite
+.vs/VSWorkspaceState.json
+.vs/odotchu.github.io/v17/DocumentLayout.json
+.vs/odotchu.github.io/v17/.wsuo
+.vs/odotchu.github.io/config/applicationhost.config
+.vs/odotchu.github.io/v17/DocumentLayout.backup.json

@@ -1,22 +1,25 @@
 ﻿:root {
-    --seaFoam: #50AEAE;
-    --ink: #104B51;
-    --steam: #e2d4ba;
-    --fog: #ABBDA5;
-    --sorrow: #849D8A;
-    --ribbon: #D7AC5A;
+   --mint:#67d4cf;
+   --strongMint:#488F8C;
+   --cherry:#B40301;
+   --darkChoco:#450c21;
+   --matchaLatte:#D9FFD2;
+   --icepop:#F6FFEA;
+   --honey:#FFDE96;
+   --berry:#2C365E;
+   background-image:url('./images/diner/checker1.png');
+   background-color:var(--mint);
 }
 
-/*@font-face {
-    font-family: Squa Tront;
-    src: url(./fonts/squa-tront/SpaFon-XGz2.ttf);
+.strokeMe {
+    font-size: 8vw;
+    color: var(--darkChoco);
+    text-shadow: 
+        -2px -2px 0 var(--icepop), 
+        2px -2px 0 var(--icepop),
+        -2px 2px 0 var(--icepop), 
+        2px 2px 0 var(--icepop);
 }
-
-h1
-{
-    font-family: Squa Tront;
-}
-*/
 
 body > div {
     margin: 8% 15% 0 15%;
@@ -27,20 +30,22 @@ body > div {
 .mainDiv {
     margin-top:20%;
     height: 59vw;
-    background-color: burlywood;
-    border: 3px brown solid;
+    background-color: var(--matchaLatte);
+    border: 3px var(--darkChoco) solid;
     border-radius: 15px;
     z-index: 0;
 }
 .mainHeader{
-    width:60%;
+    margin-top:-8%;
+    width:auto;
     margin-left:40%;
-    background-color:blue;
+    padding:0 5vw;
+ 
+    
 }
 .mainContent {
     width: 70%;
     margin: 10% 0 0 30%;
-    background-color: blue;
 }
 
 
@@ -51,22 +56,21 @@ body > div {
 
 
 .tabHolder {
-    margin: 1vw auto;
+    margin: -1vw auto;
     width: 84%;
     text-align:center;
 }
 .tabulate {
-    width: 15vw;
-    height: 3.5vh;
-    background-color: burlywood;
-    border: 3px brown solid;
+    width: 12vw;
+    height: auto;
+    background-color: var(--matchaLatte);
+    border: 3px var(--darkChoco) solid;
 
     border-radius: 15px;
     float: right;
-    padding-bottom:10px;
-    margin-left:1vw;
-        z-index:-1;
-
+    padding: 0.5vw 1vw;
+    margin-left: 1vw;
+    z-index: -1;
 }
 
 
@@ -74,26 +78,27 @@ body > div {
 /*old code*/
 
 .blogLabel {
-    background-image: url('./images/diner/checker1.png');
+    background-image: url('./images/diner/checker2.png');
     background-size: 47px;
     background-repeat:repeat-x;
-    height: 5vh;
+    height: 64px;
     width: 150%;
     margin:1vw 0 0 20.2vw;
 }
 .blog {
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 40vh;
-    
-    border: 3px aqua solid;
+    height: 50vw;
+    margin-top: 10%;
+    background-color: var(--matchaLatte);
+    border: 3px var(--darkChoco) solid;
     border-radius: 15px;
 }
 
 .blog > ul {
     list-style-type: none;
     width:200%;
-    height:30vh;
+    height:30vw;
 }
  .blog > ul > li {
     float: left;
@@ -102,12 +107,12 @@ body > div {
 .card {
     padding: 10px;
     width: 30vw;
-    height: 30vh;
-    background-color: var(--steam);
-    box-shadow: 10px 5px 5px var(--ink);
+    height: 30vw;
+    background-color: var(--icepop);
+    box-shadow: 10px 5px 5px var(--mint);
 }
 
 .card:hover {
-        box-shadow: 12px 12px 2px 1px var(--ink);
+        box-shadow: 12px 12px 2px 1px var(--mint);
         transform: rotate(-2deg);
     }
